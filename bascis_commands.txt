@@ -1,0 +1,9 @@
+#extract a file
+tar -xzvf yourfile.tgz
+
+
+#install deb file
+sudo dpkg -i mydebfile.deb
+
+#delete a file
+rm file_name
