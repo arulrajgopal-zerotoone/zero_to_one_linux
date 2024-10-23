@@ -22,11 +22,13 @@ install brew and databricks cli
           echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/Arulraj/.bashrc
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-
           brew -v
 
+          sudo apt-get install build-essential procps curl file git
+
           brew tap databricks/tap
-          
           brew install databricks
+
+          databricks -v
 
 
