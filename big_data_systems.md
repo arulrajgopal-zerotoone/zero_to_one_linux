@@ -26,6 +26,7 @@ install brew and databricks cli
           brew -v
 
           brew tap databricks/tap
+          
           brew install databricks
 
 
