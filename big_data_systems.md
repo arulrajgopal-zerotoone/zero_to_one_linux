@@ -14,7 +14,7 @@ install python
           sudo apt-get install python3.6
           python3 --version
 
-install brew
+install brew and databricks cli
 
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -23,5 +23,5 @@ install brew
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 
-install databricks cli 
+          brew install databricks 
 
