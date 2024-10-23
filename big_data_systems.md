@@ -23,5 +23,9 @@ install brew and databricks cli
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 
-          brew install databricks 
+          brew -v
+
+          brew tap databricks/tap
+          brew install databricks
+
 
