@@ -21,18 +21,6 @@ sudo apt-get install pinta
 echo "#################################################################paint installed"
 
 
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
-sudo ./aws/install
-echo "#################################################################awscli installed"
-
-
-sudo apt-get install openjdk-11-jdk
-java --version
-
-sudo apt-get install python3.6
-python3 --version
-
 
 
 
