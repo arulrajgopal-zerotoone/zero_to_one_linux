@@ -1,17 +1,17 @@
 sudo apt-get update
 sudo apt-get upgrade
-echo "#################################################################sudo update & upgrade done successfully"
+echo "################################################################# sudo update & upgrade done successfully"
 
 sudo apt-get install xfce4
 sudo apt install xrdp
 echo xfce4-session > ~/.xsession
 sudo service xrdp restart
-echo "#################################################################xrdp Installed successfully"
+echo "################################################################# xrdp Installed successfully"
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get install -f
-echo "#################################################################GoogleChrome Installed successfully"
+echo "################################################################# GoogleChrome Installed successfully"
 
 
 echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections
@@ -25,16 +25,15 @@ rm -f packages.microsoft.gpg
 sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code # or code-insiders
-
-echo "#################################################################VSCode Installed successfully"
+echo "################################################################# VSCode Installed successfully"
 
 
 
 sudo apt-get install xfce4-session xfce4-goodies
-echo "#################################################################screenshot tool installed"
+echo "################################################################# screenshot tool installed"
 
 sudo apt-get install pinta
-echo "#################################################################paint installed"
+echo "################################################################# paint installed"
 
 
 
