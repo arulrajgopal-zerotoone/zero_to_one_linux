@@ -27,6 +27,10 @@ sudo apt update
 sudo apt install code # or code-insiders
 echo "################################################################# VSCode Installed successfully"
 
+sudo apt install git-all
+
+git --version
+echo "################################################################# git Installed successfully"
 
 
 sudo apt-get install xfce4-session xfce4-goodies
