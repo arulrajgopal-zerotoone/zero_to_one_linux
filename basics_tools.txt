@@ -28,7 +28,6 @@ sudo apt install code # or code-insiders
 echo "################################################################# VSCode Installed successfully"
 
 sudo apt install git-all
-
 git --version
 echo "################################################################# git Installed successfully"
 
