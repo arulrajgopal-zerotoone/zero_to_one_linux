@@ -7,3 +7,7 @@ sudo dpkg -i mydebfile.deb
 
 #delete a file
 rm file_name
+
+
+#remove directory
+sudo rm -rf /path/to/directory/
