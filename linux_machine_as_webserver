@@ -7,10 +7,10 @@ Azure virtual linux machine as webserver
 
 4. sudo apache2 service install
 
-        sudo su
-        
-        sudo apt update
-        sudo apt install apache2 -y
+sudo su
+
+sudo apt update
+sudo apt install apache2 -y
 
 5.enable service while login
 
